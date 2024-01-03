@@ -1,1 +1,2 @@
 # real-sns-udemy
+## メモ
