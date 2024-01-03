@@ -51,3 +51,6 @@ const UserSchema = mongoose.Schema(
     },
     { timestamps: true }
 );
+
+// TODO 勉強してください。
+module.exports = mongoose.model("User", UserSchema);

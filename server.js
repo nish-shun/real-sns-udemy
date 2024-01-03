@@ -13,6 +13,7 @@ mongoose.connect(process.env.MONGO_URL)
     });
 
 // ミドルウェアによるルーティング設定
+app.use(express.json()); // JSON形式で扱う設定だよ
 const userRoute = require('./routes/users');
 const postRoute = require('./routes/posts');
 const authRoute = require('./routes/auth');
